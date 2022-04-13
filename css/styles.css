@@ -7,10 +7,24 @@
 body {
     background-color: var(--bacground-color);
     color: var(--primary-text-color);
-    font-family: 'Roboto', sans-serif;
-    width: 1600px;
-    height: 1880px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
 }
+
+/* Скрывает h2 в секции "Особенности" */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /* Удаляет точки из списков */
 .list {
@@ -22,60 +36,52 @@ body {
     color: var(--accent-color)
 }
 
-/* Заголовки блоков и имена */
+/* Заголовки блоков */
 h2 {
     color: #212121;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
-h3 {
-    color: #212121;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+/* Кнопка */
+.button {
+    font-family: inherit;
+    background-color: #2196F3;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    height: 50px;
 }
 
-/* Логотип */
+/* Логотипы */
 .logo-web-color {
     color: #2196F3;
 }
 
 .logo-header {
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .logo-footer {
     color: #FFFFFF;
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 /* Шапка страницы */
-.header {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-}
-
 .site-nav {
     color: #212121;
-    font-style: normal;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -86,9 +92,8 @@ h3 {
     color: #212121;;
 }
 
-.contact-us {
+.contact-us-header {
     color: #757575;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -102,57 +107,68 @@ h3 {
 
 .banner-text {
     color: #FFFFFF;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 1;
     letter-spacing: 0.06em;
 }
 
 /* Особенности */
 .section-title-list {
     color: #212121;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.03em;
 }
 
 .section-title-description {
     color: #757575;;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 /* Наша команда */
-.profession {
-    color: #757575;
-    font-style: normal;
-    font-weight: 400;
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.worker-name {
+    color: #212121;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1;
     letter-spacing: 0.03em;
 }
 
-.section-team {
-    background-color: #F5F4FA;
+.profession {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.03em;
 }
 
 /* Подвал */
 .footer {
     background-color: #2F303A;
 }
+
 .address-country {
-    color: #FFFFFF;;
-    font-style: normal;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.contact-us-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
