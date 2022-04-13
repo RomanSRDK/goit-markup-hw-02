@@ -1,0 +1,168 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --bacground-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--bacground-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 1880px;
+}
+
+/* Удаляет точки из списков */
+.list {
+    list-style: none;
+}
+
+/* Наведение курсора */
+.link:hover, .link:focus {
+    color: var(--accent-color)
+}
+
+/* Заголовки блоков и имена */
+h2 {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+/* Логотип */
+.logo-web-color {
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/* Шапка страницы */
+.header {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.site-nav {
+    color: #212121;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    color: #212121;;
+}
+
+.contact-us {
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+/* Герой */
+.section-banner {
+    background-color: #2F303A;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Особенности */
+.section-title-list {
+    color: #212121;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+.section-title-description {
+    color: #757575;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.profession {
+    color: #757575;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+/* Подвал */
+.footer {
+    background-color: #2F303A;
+}
+.address-country {
+    color: #FFFFFF;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
+
+
+
+
