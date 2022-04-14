@@ -52,6 +52,10 @@ h2 {
     color: #ffffff;
 }
 
+button:hover {
+    background-color: #0b3e68;
+}
+
 /* Логотипы */
 .logo-web-color {
     color: #2196F3;
