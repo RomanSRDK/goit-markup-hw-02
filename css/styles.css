@@ -11,6 +11,11 @@ body {
     font-style: normal;
 }
 
+/* Убираем подчёркивание */
+a {
+    text-decoration: none;
+}
+
 /* Скрывает h2 в секции "Особенности" */
 .visually-hidden {
     position: absolute;
@@ -50,6 +55,9 @@ h2 {
 .button {
     background-color: #2196F3;
     color: #ffffff;
+}
+
+button {cursor: pointer;
 }
 
 button:hover {
