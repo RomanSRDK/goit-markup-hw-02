@@ -52,16 +52,36 @@ h2 {
 }
 
 /* Кнопка */
-.button {
-    background-color: #2196F3;
-    color: #ffffff;
+button {cursor: pointer;
 }
 
-button {cursor: pointer;
+.main-button {
+    background-color: #2196F3;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.inactive-button {
+    background-color: #F5F4FA;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.active-button {
+    background-color: #2196F3;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 
 button:hover {
     background-color: #188CE8;
+    color: #FFFFFF;
 }
 
 /* Логотипы */
@@ -100,6 +120,10 @@ button:hover {
     color: #212121;;
 }
 
+.active-link {
+    color: #2196F3;
+}
+
 .contact-us-header {
     color: #757575;
     font-weight: 500;
@@ -119,6 +143,7 @@ button:hover {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Особенности */
