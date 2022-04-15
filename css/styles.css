@@ -73,7 +73,7 @@ button {cursor: pointer;
 
 .active-button {
     background-color: #2196F3;
-    color: #000000;
+    color: #F5F4FA;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
