@@ -1,17 +1,19 @@
 :root {
-    --primary-text-color: #212121;
-    --accent-color: #2196F3;
-    --bacground-color: #FFFFFF;
+    --primary-text-color: #757575;
+    --button-hover: #188CE8;
 }
 
 body {
-    background-color: var(--bacground-color);
-    color: var(--primary-text-color);
+    background-color: #FFFFFF;
+    color: #212121;
     font-family: Roboto, sans-serif;
     font-style: normal;
 }
 
-/* Убираем подчёркивание */
+button {cursor: pointer;
+}
+
+/* Убираем подчёркивание у ссылок */
 a {
     text-decoration: none;
 }
@@ -38,10 +40,10 @@ a {
 
 /* Наведение курсора */
 .link:hover, .link:focus {
-    color: var(--accent-color)
+    color: #2196F3;
 }
 
-/* Заголовки блоков */
+/* Заголовки блоков на странице Home */
 h2 {
     color: #212121;
     font-weight: 700;
@@ -52,35 +54,35 @@ h2 {
 }
 
 /* Кнопка */
-button {cursor: pointer;
-}
-
 .main-button {
+    display: flex;
     background-color: #2196F3;
     color: #ffffff;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
 }
 
 .inactive-button {
     background-color: #F5F4FA;
-    color: #000000;
+    color: #212121;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .active-button {
     background-color: #2196F3;
     color: #F5F4FA;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
 }
 
 button:hover {
-    background-color: #188CE8;
+    background-color: var(--button-hover);
     color: #FFFFFF;
 }
 
@@ -110,6 +112,7 @@ button:hover {
 /* Шапка страницы */
 .site-nav {
     color: #212121;
+    font-weight: 500;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -143,6 +146,7 @@ button:hover {
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -157,7 +161,7 @@ button:hover {
 }
 
 .section-title-description {
-    color: #757575;;
+    color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -179,7 +183,7 @@ button:hover {
 }
 
 .profession {
-    color: #757575;
+    color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -198,16 +202,20 @@ button:hover {
 }
 
 .text-title-under {
-    color: #757575;
+    color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
 
 /* Подвал */
 .footer {
     background-color: #2F303A;
+}
+
+address {
+    font-style: normal;
 }
 
 .address-country {
@@ -225,16 +233,3 @@ button:hover {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
-address {
-    font-style: normal;
-}
-
-
-
-
-
-
-
-
-
